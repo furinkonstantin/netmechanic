@@ -87,6 +87,7 @@ foreach ($requiredFields as $key => $value) {
 }
 
 $arResult["VALUES"] = array();
+
 if (!empty($_POST) && $_POST["SUBMIT_VALUE"] == $arParams["SUBMIT_VALUE"]) {
     $arResult["VALUES"] = $_POST;
 	$newPostArray = $_POST;

@@ -3,51 +3,21 @@
     $APPLICATION->SetTitle("ИТ-аутсорсинг и облачные решения для бизнеса в Москве");
     $APPLICATION->SetPageProperty("description", "Команда профессионалов предлагает свои услуги - ИТ-аутсорсинг, облачные решения, служба поддержки, автоматизация деятельности, защита информации, кабельные сети");
 ?>
-<?
-    // $APPLICATION->IncludeComponent(
-	// "dev:form.send", 
-	// "callback", 
-	// array(
-		// "COMPONENT_TEMPLATE" => "callback",
-		// "IS_ADD_IBLOCK" => "N",
-		// "IBLOCK_TYPE" => "-",
-		// "IBLOCK_ID" => "",
-		// "NAME" => "",
-		// "VAR_FOR_EMAIL" => "EMAIL",
-		// "VAR_FOR_PHONE" => "PHONE",
-		// "SUBMIT_VALUE" => "send",
-		// "ACTIVE" => "N",
-		// "REQUIRED_FIELDS" => array(
-			// 0 => "",
-			// 1 => "EMAIL",
-			// 2 => "",
-		// ),
-		// "SHOW_FIELDS" => array(
-            // 0 => "EMAIL"
-		// ),
-        // "SHOW_FIELDS_TEXT" => array(
-            // 0 => "Электронная почта"
-        // ),
-		// "VALID_EMAIL" => "Y",
-		// "VALID_PHONE" => "N",
-		// "SEND_ON_EMAIL" => "Y",
-		// "TEMPLATE_EMAIL" => "NEW_USER",
-		// "TEMPLATE_ID" => "1",
-		// "SUCCESS_TEXT" => "Спасибо! С Вами свяжутся в ближайшее время!",
-		// "USE_CAPTCHA" => "N",
-		// "FILES_WITHOUT_AJAX" => array(
-		// ),
-		// "AJAX_MODE" => "N",
-		// "AJAX_OPTION_JUMP" => "N",
-		// "AJAX_OPTION_STYLE" => "Y",
-		// "AJAX_OPTION_HISTORY" => "N",
-		// "AJAX_OPTION_ADDITIONAL" => "",
-		// "CACHE_TYPE" => "A",
-		// "CACHE_TIME" => "3600"
-	// ),
-	// false
-// );
-?>
+<section style="background-image:url(<?=OLD_TEMPLATE_PATH?>!custom_img/home/hero/fullscreen/black-and-white-city-man-people.jpg);" class="hero-static fullscreen animation" data-animation="fadeInUp" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="250">
+    <div class="overlay dark"></div>
+    <div class="inner">
+        <div class="content">
+            <div class="container">
+                <h1 class="light-color left">ИТ-аутсорсинг</h1>
+                <p><span class="light-color left normalcase" style="font-size: 200%;">Время и золотые руки оптом и в розницу</span></p>
+                <p class="light-color left normalcase hidden-xs">Для успешного развития бизнеса необходимо функционирование сопутствующих ИТ-сервисов — поддержку таких систем осуществляют профессионалы. Опытные системные администраторы стоят дорого, попытки же сэкономить и пригласить «недорогих» сотрудников или обратиться к фрилансерам приводят к проблемам и сбоям сервисов.</p>
+                <p class="light-color left normalcase hidden-xs">Инженеры компании NetMecahnic ABS возьмут на себя частично или в полном объеме непрофильные для вас информационно-технологические задачи бизнеса от создания ИТ-инфраструктуры и технической поддержки рабочих мест сотрудников до разработки программного обеспечения и организации информационной защиты корпоративных информационных систем.</p>
+                <p class="light-color left normalcase hidden-xs">Сосредоточьтесь на своем бизнесе и не тратьте ресурсы на найм и содержание штата технических сотрудников, делегируйте ИТ задачи специализированной компании - мы оправдаем доверие.</p>
+                <a class="btn btn-default btn-md" data-offset-top="90" href="services/it_outsourcing/">Подробнее</a>
+            </div>
+        </div>
+    </div>
+</section>
 <section style="background-image:url(/bitrix/templates/KEDAVRA/!custom_img/home/hero/fullscreen/block-free-service.jpg);" class="page-block block-free-service animation" data-animation="zoomIn">
     <div class="container">
         <div class="page-heading center animation fadeInUp animated" data-animation="fadeInUp">
