@@ -34,29 +34,29 @@
 				<!--Off-Canvas Menu-->
 				<aside class="left-off-canvas-menu">
 					<div class="mobile-navi animation" data-animation="zoomIn">
-						<form method="get" class="mobile-search">
-							<label class="sr-only" for="m-search"></label>
-							<input class="form-control input-lg" name="m-search" id="m-search" type="text" placeholder="Поиск">
-							<button type="submit"><i class="flaticon-search100"></i></button>
-						</form>
-						<ul>
-							<li class="current"><a href="/">Услуги и решения</a><span></span>
-								<ul class="submenu">
-									<li><a href="/services/it_outsourcing/">ИТ-аутсорсинг</a></li>
-                                    <li><a href="#automatization">Автоматизация</a></li>
-									<li><a href="#security">Защита информации</a></li>
-									<li><a href="#cabling">Кабельные сети</a></li>
-								</ul>
-							</li>
-							<li><a href="#callbackhunter">Позвать на помощь</a></li>
-							<li><a href="#contacts">Контакты</a></li>
-						</ul>
+						<?
+                            $APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/v3/mobile/form_search.php"), false);
+                        ?>
+						<?
+                            $APPLICATION->IncludeComponent('bitrix:menu', "top_menu_mobile", array(
+                                    "ROOT_MENU_TYPE" => "top",
+                                    "CHILD_MENU_TYPE" => "top_child", 
+                                    "MENU_CACHE_TYPE" => "A",
+                                    "MENU_CACHE_TIME" => "36000000",
+                                    "MENU_CACHE_USE_GROUPS" => "Y",
+                                    "MENU_CACHE_GET_VARS" => array(),
+                                    "MAX_LEVEL" => "2",
+                                    "USE_EXT" => "Y",
+                                    "ALLOW_MULTI_SELECT" => "N"
+                                )
+                            );
+                        ?>
 					</div>
 				</aside>
 				<!--Off-Canvas Menu Close-->
 
 				<?
-                    $APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/feedback_modal.php"), false);
+                    $APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/v3/feedback_modal.php"), false);
                 ?>
 
 				<!--Layout-->
@@ -68,7 +68,7 @@
 							<div class="container group animation" data-animation="zoomIn">
 								
                                 <?
-                                    $APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/logo.php"), false);
+                                    $APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/v3/logo.php"), false);
                                 ?>
 								
 								<!--Navigation Toggle-->
@@ -90,7 +90,7 @@
                                 ?>
 								
                                 <?
-                                    $APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/feedback_button.php"), false);
+                                    $APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/v3/feedback_button.php"), false);
                                 ?>
 								
 							</div>

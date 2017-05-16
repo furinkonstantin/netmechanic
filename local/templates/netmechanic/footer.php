@@ -14,22 +14,34 @@
 						        <div class="row">
 						            <!--Featured Posts-->
 						            <div class="col-sm-7 col-xs-12">
-						                <? //$APPLICATION->AddHeadString('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3ae846d9f134d73ad8ab288b2a2048a46c8ba4e1ad536f3208df90ff92620d72&amp;width=655&amp;height=320&amp;lang=ru_RU&amp;scroll=true"></script>'); ?>
+                                        <?$APPLICATION->IncludeComponent(
+	"bitrix:map.yandex.view", 
+	".default", 
+	array(
+		"INIT_MAP_TYPE" => "MAP",
+		"MAP_DATA" => "a:4:{s:10:\"yandex_lat\";d:55.8401011471848;s:10:\"yandex_lon\";d:37.491809423278816;s:12:\"yandex_scale\";i:16;s:10:\"PLACEMARKS\";a:1:{i:0;a:3:{s:3:\"LON\";d:37.491809423278816;s:3:\"LAT\";d:55.8401011471912;s:4:\"TEXT\";s:64:\"Россия, Москва, Головинское шоссе, 5\";}}}",
+		"MAP_WIDTH" => "655",
+		"MAP_HEIGHT" => "320",
+		"CONTROLS" => array(
+			0 => "ZOOM",
+			1 => "SMALLZOOM",
+		),
+		"OPTIONS" => array(
+			0 => "ENABLE_SCROLL_ZOOM",
+			1 => "ENABLE_DBLCLICK_ZOOM",
+			2 => "ENABLE_DRAGGING",
+		),
+		"MAP_ID" => "yam_1",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 		            				</div>
 						            <!--Contact Info-->
 						            <div class="col-sm-5 col-xs-12">
-						                <div class="contacts">
-						                    <h4>Контакты</h4>
-						                    <span>Адрес:</span>
-						                    <p>125212, Россия, Москва, Головинское шоссе, дом 5 корп.1, БЦ "Водный", 14 этаж, офис 14024</p>
-						                    <span>Телефон:</span>
-						                    <p><a href="tel:+7 (495) 374 55 04">+7 495 225 33 75</a></p>
-						                    <span>Email:</span>
-						                    <p><a href="mailto:info@netmechanic.ru">info@netmechanic.ru</a></p>
-						                    <span>График работы:</span>
-						                    <p>Офис - по рабочим дням с 10 до 18</p>
-						                    <p>Служба поддержки - круглосуточно и без выходных</p>
-						                </div>
+						                <?
+                                            $APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/v3/contacts.php"), false);
+                                        ?>
 						            </div>
 						        </div>
 						    </div>
@@ -37,16 +49,12 @@
 					    <!--Copyright-->
 					    <div class="copyright text-center">
 					        <div class="container">
-					            <p class="pull-left">
-					                <a href="http://netmechanic.ru/" target="_blank">NetMechanic ABS</a> - изобретаем будущее под ключ
-					            </p>
-					            <div class="social-bar">
-					                <a href="https://www.facebook.com/pages/NETMECHANIC-Applied-Business-Solutions/385775085852" title="NetMechanic ABS в Facebook"><i class="fa fa-facebook"></i></a>
-					                <a href="https://plus.google.com/u/0/112262134672802413708" title="NetMechanic ABS в Google+"><i class="fa fa-google-plus"></i></a>
-					                <a href="http://www.linkedin.com/company/2102420?trk=tyah" title="NetMechanic ABS на LinkedIn"><i class="fa fa-linkedin"></i></a>
-					                <a href="#" title="NetMechanic ABS в VK"><i class="fa fa-vk"></i></a>
-					                <a href="#" title="NetMechanic ABS в Odnoklassniki"><i class="fa fa-odnoklassniki"></i></a>
-					            </div>
+					            <?
+                                    $APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/v3/copyrights.php"), false);
+                                ?>
+					            <?
+                                    $APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/v3/social_links.php"), false);
+                                ?>
 					        </div>
 					    </div>
 					</div>
