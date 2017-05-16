@@ -76,30 +76,32 @@
 		</div>
 	<!--Sticky Buttons Close-->
 		<?
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/libs/jquery-1.11.1.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/libs/jquery.easing.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/bootstrap.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/bootstrap-datepicker.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/smoothscroll.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/utilities.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/foundation.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/jquery.placeholder.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/icheck.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/jquery.validate.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/waypoints.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/isotope.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/masterslider.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/owl.carousel.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/lightGallery.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/jquery.stellar.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/jquery.parallax.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/chart.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/jquery-numerator.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/jquery.countdown.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/jquery.easypiechart.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/jquery.nouislider.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/plugins/card.min.js");
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/scripts.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/libs/jquery-1.11.1.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/libs/jquery.easing.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/bootstrap.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/bootstrap-datepicker.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/smoothscroll.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/utilities.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/foundation.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/jquery.placeholder.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/icheck.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/jquery.validate.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/waypoints.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/isotope.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/masterslider.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/owl.carousel.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/lightGallery.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/jquery.stellar.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/jquery.parallax.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/chart.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/jquery-numerator.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/jquery.countdown.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/jquery.easypiechart.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/jquery.nouislider.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/card.min.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/scripts.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/kinetic.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/jquery.final-countdown.js");
             $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/common.js");
         ?>
         <!-- Yandex.Metrika counter -->

@@ -17,7 +17,7 @@
             $APPLICATION->AddHeadString('<link rel="publisher" href="https://plus.google.com/u/0/112262134672802413708">');
             $APPLICATION->AddHeadString('<link rel="shortcut icon" type="image/x-icon" href="'.OLD_TEMPLATE_PATH.'img/favicon.png" />');
             $APPLICATION->AddHeadString('<!--[if lt IE 9]><script src="'.OLD_TEMPLATE_PATH.'js/plugins/respond.js"></script><![endif]-->');
-            $APPLICATION->AddHeadScript(OLD_TEMPLATE_PATH. "js/libs/modernizr.custom.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/libs/modernizr.custom.js");
         ?>
         <?$APPLICATION->ShowHead();?>
 	</head>

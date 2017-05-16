@@ -1,4 +1,19 @@
 $(function() {
+
+    $('.countdown').final_countdown({
+        seconds: {
+            borderWidth: '10'
+        },
+        minutes: {
+            borderWidth: '10'
+        },
+        hours: {
+            borderWidth: '10'
+        },
+        days: {
+            borderWidth: '10'
+        }
+    });
     
     $(document).on("submit", "#contact-form", function(e) {
         e.preventDefault();
