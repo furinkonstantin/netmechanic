@@ -2,7 +2,7 @@
 <? if (!empty($arResult['SUCCESS'])):?>
 		<font color="green"><?=$arResult['SUCCESS'];?></font><br/>
 <? else:?>
-    <form method="post" class="contact-form" name="contact-form" data-url="<?=SITE_DIR?>include/v3/feedback_modal.php" id="contact-form" novalidate="novalidate">
+    <form method="post" class="contact-form" name="contact-form" data-url="<?=URL_FOR_FEEDBACK?>" id="contact-form" novalidate="novalidate">
         <?=bitrix_sessid_post()?>
         <div class="row">
             <? foreach($arResult["PROPS_STRING_VALUES"] as $stringProp):?>
