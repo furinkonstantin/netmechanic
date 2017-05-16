@@ -18,7 +18,7 @@
         </div>
     </div>
 </section>
-<section style="background-image:url(/bitrix/templates/KEDAVRA/!custom_img/home/hero/fullscreen/block-free-service.jpg);" class="page-block block-free-service animation" data-animation="zoomIn">
+<section style="background-image:url(<?=OLD_TEMPLATE_PATH?>!custom_img/home/hero/fullscreen/block-free-service.jpg);" class="page-block block-free-service animation" data-animation="zoomIn">
     <div class="container">
         <div class="page-heading center animation fadeInUp animated" data-animation="fadeInUp">
             <h2>Месяц обслуживания бесплатно<span></span></h2>

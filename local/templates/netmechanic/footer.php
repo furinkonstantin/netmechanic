@@ -16,7 +16,7 @@
 						            <div class="col-sm-7 col-xs-12">
                                         <?$APPLICATION->IncludeComponent(
 	"bitrix:map.yandex.view", 
-	".default", 
+	"footer", 
 	array(
 		"INIT_MAP_TYPE" => "MAP",
 		"MAP_DATA" => "a:4:{s:10:\"yandex_lat\";d:55.8401011471848;s:10:\"yandex_lon\";d:37.491809423278816;s:12:\"yandex_scale\";i:16;s:10:\"PLACEMARKS\";a:1:{i:0;a:3:{s:3:\"LON\";d:37.491809423278816;s:3:\"LAT\";d:55.8401011471912;s:4:\"TEXT\";s:64:\"Россия, Москва, Головинское шоссе, 5\";}}}",
