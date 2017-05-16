@@ -45,8 +45,8 @@
                             "VALID_EMAIL" => "Y",
                             "VALID_PHONE" => "N",
                             "SEND_ON_EMAIL" => "Y",
-                            "TEMPLATE_EMAIL" => "NEW_USER",
-                            "TEMPLATE_ID" => "1",
+                            "TEMPLATE_EMAIL" => "CUSTOM_FEEDBACK",
+                            "TEMPLATE_ID" => "8",
                             "SUCCESS_TEXT" => "Спасибо! С Вами свяжутся в ближайшее время!",
                             "USE_CAPTCHA" => "N",
                             "FILES_WITHOUT_AJAX" => array(
