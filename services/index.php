@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Все ИТ-услуги, от ИТ-аутсорсинга до облачных решений, в одном месте");
 $APPLICATION->SetPageProperty("description", "NetMechanic ABS предлагает ИТ-консалтинг, облачные сервисы, аутсорсинг технической поддержки, информационная защита, проектирование, монтаж и эксплуатация СКС");
 ?>
-<section style="background-image:url(<?=OLD_TEMPLATE_PATH?>!custom_img/home/hero/fullscreen/black-and-white-city-man-people.jpg);" class="hero-static fullscreen animation" data-animation="fadeInUp" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="250">
+<section style="background-image:url(<?=MAIN_TEMPLATE_PATH?>!custom_img/home/hero/fullscreen/black-and-white-city-man-people.jpg);" class="hero-static fullscreen animation" data-animation="fadeInUp" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="250">
     <div class="overlay dark"></div>
     <div class="inner">
         <div class="content">
@@ -27,7 +27,7 @@ $APPLICATION->SetPageProperty("description", "NetMechanic ABS предлагае
             <div class="col-md-5 col-sm-6">
                 <h2 class="featured-heading">Обслуживание компьютеров</h2>
                 <p>Компания оказывает комплексные услуги по техническому обслуживанию компьютерного оборудования в офисах организаций и предприятий, обеспечивая надежную работу персональных данных. Услугами пользуются организации малого и среднего бизнеса, представительства зарубежных компаний. Мы можем предложить комплексную услугу, включающую в себя: аренду самого компьютера или ноутбука, программного обеспечения и обслуживание данного компьютера или ноутбука.</p>
-                <img class="img-shadow" src="/bitrix/templates/KEDAVRA/img/computer-service.jpg">
+                <img class="img-shadow" src="<?=MAIN_TEMPLATE_PATH?>img/computer-service.jpg">
             </div>
             <div class="col-md-offset-1 col-sm-6">
                 <ul class="featured-list">
@@ -45,7 +45,7 @@ $APPLICATION->SetPageProperty("description", "NetMechanic ABS предлагае
     </div>
     </section>
 
-    <section style="background-image: url(/bitrix/templates/KEDAVRA/!custom_img/home/hero/fullscreen/servicing-of-servers.jpg);" class="block light-text animation zoomIn animated" data-animation="zoomIn" data-stellar-background-ratio="0.5">
+    <section style="background-image: url(<?=MAIN_TEMPLATE_PATH?>!custom_img/home/hero/fullscreen/servicing-of-servers.jpg);" class="block light-text animation zoomIn animated" data-animation="zoomIn" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -84,13 +84,13 @@ $APPLICATION->SetPageProperty("description", "NetMechanic ABS предлагае
                 <p>Специалисты NetMechanic обладают большим опытом в разработке систем для автоматизации задач в области документооборота, диспетчерских служб, управленческого учета. Среди завершенных проектов компании — корпоративная социальная сеть, сервис моделирования спроса и обработки данных, а также медицинская информационная система.</p>
             </div>
             <div class="col-md-offset-1 col-sm-6">
-                <img class="img-shadow" src="/bitrix/templates/KEDAVRA/img/automation-of-activities.jpg">
+                <img class="img-shadow" src="<?=MAIN_TEMPLATE_PATH?>img/automation-of-activities.jpg">
             </div>
         </div>
     </div>
     </section>
 
-    <section style="background-image: url(/bitrix/templates/KEDAVRA/!custom_img/home/hero/fullscreen/maintenance-of-office-equipment.jpg);" class="block light-text animation zoomIn animated" data-animation="zoomIn" data-stellar-background-ratio="0.5">
+    <section style="background-image: url(<?=MAIN_TEMPLATE_PATH?>!custom_img/home/hero/fullscreen/maintenance-of-office-equipment.jpg);" class="block light-text animation zoomIn animated" data-animation="zoomIn" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -135,7 +135,7 @@ $APPLICATION->SetPageProperty("description", "NetMechanic ABS предлагае
                 </ul>
             </div>
             <div class="col-md-offset-1 col-sm-6">
-                <img class="img-shadow" src="/bitrix/templates/KEDAVRA/img/scs-lan-ip.jpg">
+                <img class="img-shadow" src="<?=MAIN_TEMPLATE_PATH?>img/scs-lan-ip.jpg">
                 <p>Одним из направлений деятельности компании является внедрение IP-телефонии в офисах фирм и на различных предприятиях. IP-телефония — современный сервис интернет-коммуникаций, который позволяет организовать полноценную телефонную сеть у Вас в офисе. Благодаря подключению IP-телефонии, Вы можете существенно снизить затраты на телефонную связь и повысить эффективность коммуникаций компании.
                 IP-телефония позволяет принимать и совершать звонки в любой точке России и мира. А если вы решите сменить офис, все номера и настройки переедут вместе с вами.
                 Если у вас несколько офисов по всей стране, IP-телефония их объединит. Все сотрудники находятся в единой сети, и входящие звонки переводятся в любой город.
@@ -154,7 +154,7 @@ $APPLICATION->SetPageProperty("description", "NetMechanic ABS предлагае
     </div>
     </section>
 
-    <section style="background-image: url(/bitrix/templates/KEDAVRA/!custom_img/home/hero/fullscreen/protection-info.jpg);" class="block light-text animation zoomIn animated" data-animation="zoomIn" data-stellar-background-ratio="0.5">
+    <section style="background-image: url(<?=MAIN_TEMPLATE_PATH?>!custom_img/home/hero/fullscreen/protection-info.jpg);" class="block light-text animation zoomIn animated" data-animation="zoomIn" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -187,7 +187,7 @@ $APPLICATION->SetPageProperty("description", "NetMechanic ABS предлагае
                 Мы берем на себя все заботы по восстановлению утерянных компьютерных данных! Выясняем причину, из-за которой требуется восстановить информацию. Подбираем оптимальный для каждого случая способ восстановления утраченных данных компьютера. Мы восстанавливаем данные на 100%. Вы получаете срочное и полное восстановление стертых или испорченных данных по самой доступной стоимости!</p>
             </div>
             <div class="col-md-offset-1 col-sm-6">
-                <img class="img-shadow" src="/bitrix/templates/KEDAVRA/img/data-recovery.jpg">
+                <img class="img-shadow" src="<?=MAIN_TEMPLATE_PATH?>img/data-recovery.jpg">
                 <ul class="featured-list">
                     <li>восстановление данных с жестких дисков (HDD)</li>
                     <li>восстановление данных с твердотельных накопителей (SSD)</li>
@@ -203,7 +203,7 @@ $APPLICATION->SetPageProperty("description", "NetMechanic ABS предлагае
     </div>
     </section>
 
-    <section style="background-image: url(/bitrix/templates/KEDAVRA/!custom_img/home/hero/fullscreen/cloud-technologies.jpg);" class="block light-text animation zoomIn animated" data-animation="zoomIn" data-stellar-background-ratio="0.5">
+    <section style="background-image: url(<?=MAIN_TEMPLATE_PATH?>!custom_img/home/hero/fullscreen/cloud-technologies.jpg);" class="block light-text animation zoomIn animated" data-animation="zoomIn" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -249,13 +249,13 @@ $APPLICATION->SetPageProperty("description", "NetMechanic ABS предлагае
                     <li>Блокирующие устройства — турникеты, шлюзы, электронные замки, шлагбаумы и т. п. Необходимость их установки зависит от особенностей СКУД и специфики ее монтажа на конкретном объекте. </li>
                     <li>Вспомогательные и крепежные приспособления, кабельные коммуникации.</li>
                 </ul>
-                <img class="img-shadow" src="/bitrix/templates/KEDAVRA/img/access-control-system.jpg">
+                <img class="img-shadow" src="<?=MAIN_TEMPLATE_PATH?>img/access-control-system.jpg">
             </div>
         </div>
     </div>
     </section>
 
-    <section style="background-image: url(/bitrix/templates/KEDAVRA/!custom_img/home/hero/fullscreen/video-surveillance-systems.jpg);" class="block light-text animation zoomIn animated" data-animation="zoomIn" data-stellar-background-ratio="0.5">
+    <section style="background-image: url(<?=MAIN_TEMPLATE_PATH?>!custom_img/home/hero/fullscreen/video-surveillance-systems.jpg);" class="block light-text animation zoomIn animated" data-animation="zoomIn" data-stellar-background-ratio="0.5">
     <div class="container">
         <div class="row">
             <div class="col-md-5 col-sm-6">
