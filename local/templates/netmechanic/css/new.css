@@ -37,6 +37,10 @@
 .block.light-text .featured-heading {
     border-color: #fff;
 }
+.block.light-text .page-heading {
+	position: relative;
+	z-index: 1;
+}
 .block.light-text p,
 .block.light-text ul,
 .block.light-text .featured-heading {
@@ -250,6 +254,71 @@
 }
 
 
+.block-prices {
+	padding: 50px 0;
+}
+.block-prices .page-heading {
+	margin-bottom: 0;
+}
+.block-prices .page-heading h2 {
+	color: #2b170e;
+}
+.block-prices .page-heading h2 > span {
+    display: block;
+    margin-top: 20px;
+    width: 44px;
+    height: 1px;
+    background: #351c0f;
+}
+p.block-prices-subtitle {
+	font-size: 1em !important;
+}
+.block-prices .pricing-plan.type-3 p.h4 span {
+	font-size: 34px;
+}
+
+.block-prices > .container {
+	width: 1550px;
+}
+@media (max-width: 1550px) {
+	.block-prices > .container {
+		width: 100%;
+	}
+}
+
+
+.block-promotion {
+	padding: 150px 0 100px;
+}
+.block-promotion .page-heading {
+	margin-bottom: 0;
+}
+.block-promotion .page-heading h2 {
+	color: #fff;
+}
+.block-promotion .page-heading h2 > span,
+.block-promotion .page-heading p.block-promotion-subtitle > span {
+    display: block;
+    margin-top: 20px;
+    width: 44px;
+    height: 1px;
+    background: #fff;
+}
+p.block-promotion-subtitle {
+	font-size: 1em !important;
+}
+.block-promotion .counters-v1 .group .digit {
+	padding: 20px 0 30px;
+}
+.block-promotion .counters-v1 .group .digit + span {
+	font-size: 2.25em;
+}
+.block-promotion .counters-v1 .group .digit + span small {
+	font-size: 0.7em;
+}
+
+
+
 .modal {
 	color: #42281d;
 	background-color: rgba(56, 28, 15, 0.5);
@@ -297,7 +366,7 @@
 
 .clock-item .inner {
 	height: 0px;
-	padding-bottom: 100%;
+	//padding-bottom: 100%;
 	position: relative;
 	width: 100%;
 }
@@ -305,10 +374,27 @@
 	position: absolute;
 	opacity: 0;
 }
+.wrap {
+	width: 100%;
+}
 .clock-canvas {
-	height: 0px;
-	padding-bottom: 100%;
+	text-align: center;
+	height: 100%;
+	//padding-bottom: 100%;
 	border-radius: 50%;
+}
+.clock-canvas:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.clock-canvas .kineticjs-content {
+	width: 100% !important;
+	height: 100% !important;
 }
 .clock-canvas .kineticjs-content:before {
 	content: "";
