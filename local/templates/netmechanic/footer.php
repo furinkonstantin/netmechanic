@@ -9,7 +9,7 @@
 					        <div class="container">
 					        </div>
 					    </div>
-					    <div class="footer-bg" style="background-image:url(<?=OLD_TEMPLATE_PATH?>!custom_img/home/hero/fullscreen/footer.jpg);">
+					    <div id="contacts" class="footer-bg" style="background-image:url(<?=OLD_TEMPLATE_PATH?>!custom_img/home/hero/fullscreen/footer.jpg);">
 						    <div class="container space-top">
 						        <div class="row">
 						            <!--Featured Posts-->
