@@ -14,6 +14,7 @@
             $APPLICATION->SetAdditionalCSS(OLD_TEMPLATE_PATH. "!custom_css/styles.css");
             $APPLICATION->SetAdditionalCSS(OLD_TEMPLATE_PATH. "css/colors/color-2f8cea.css");
             $APPLICATION->SetAdditionalCSS(MAIN_TEMPLATE_PATH. "css/new.css");
+            $APPLICATION->SetAdditionalCSS(MAIN_TEMPLATE_PATH. "css/fixes.css");
             $APPLICATION->AddHeadString('<link rel="publisher" href="https://plus.google.com/u/0/112262134672802413708">');
             $APPLICATION->AddHeadString('<link rel="shortcut icon" type="image/x-icon" href="'.OLD_TEMPLATE_PATH.'img/favicon.png" />');
             $APPLICATION->AddHeadString('<!--[if lt IE 9]><script src="'.OLD_TEMPLATE_PATH.'js/plugins/respond.js"></script><![endif]-->');
