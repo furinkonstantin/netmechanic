@@ -15,7 +15,7 @@
             <? foreach($arResult["PROPS_STRING_VALUES"] as $stringProp):?>
                 <div class="form-group col-md-12 col-sm-12">
                     <label class="sr-only" for="<?=$stringProp["CODE"]?>"></label>
-                    <input value="<?=$arResult["VALUES"][$stringProp["CODE"]]?>" class="form-control input-lg <? if (array_key_exists($stringProp["CODE"], $arResult['ERRORS'])):?>error<? endif;?>" type="text" name="<?=$stringProp["CODE"]?>" id="<?=$stringProp["CODE"]?>" placeholder="<?=GetMessage("FEEDBACK_".$stringProp["CODE"])?>">
+                    <input value="<?=$arResult["VALUES"][$stringProp["CODE"]]?>" class="form-control input-lg <? if (!empty($arResult['ERRORS']) && array_key_exists($stringProp["CODE"], $arResult['ERRORS'])):?>error<? endif;?>" type="text" name="<?=$stringProp["CODE"]?>" id="<?=$stringProp["CODE"]?>" placeholder="<?=GetMessage("FEEDBACK_".$stringProp["CODE"])?>">
                 </div>
             <? endforeach;?>
         </div>

@@ -32,12 +32,15 @@ $(function() {
 
     $(document).on("click", "#feedback_modal", function() {
         var url = $(this).data("url");
+        $("#MESSAGE").val('');
         if (!$("#contact-form").length) {
+            BX.showWait();
             $.post(
                 url,
                 "",
                 function(data) {
                     $("#feedback_block").html($(data).find("#feedback_block").html());
+                    BX.closeWait();
                 }
             );
         }
