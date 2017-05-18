@@ -17,7 +17,7 @@
                 ?>
                 <div class="<?=$class?>">
             <? endif;?>
-                <a href="<?=$arItem["DETAIL_PAGE_URL"]?> animation" <?=$additional?> class="block-services-item services-item-<?=$arItem["PROPERTIES"]["BACKGROUND_NUMBER"]["VALUE"]?>">
+                <a href="<?=$arItem["DETAIL_PAGE_URL"]?>" <?=$additional?> class="block-services-item services-item-<?=$arItem["PROPERTIES"]["BACKGROUND_NUMBER"]["VALUE"]?> animation">
                     <span><?=$arItem["NAME"]?></span>
                 </a>
             <? if ($i == count($arResult["ITEMS"])-1 || $i == ($arResult["EQUAL_COLUMNS"]-1)):?>
