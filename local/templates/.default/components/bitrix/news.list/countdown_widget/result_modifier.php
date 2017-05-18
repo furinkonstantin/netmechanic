@@ -6,3 +6,6 @@
         $arItem["END_TIME"] = strtotime($dateEnd);
         $arResult['ITEMS'][$i] = $arItem;
 	}
+    
+    $arResult["ITEM"] = $arResult["ITEMS"][0];
+    $this->__component->SetResultCacheKeys(array("CACHED_TPL", "ITEM"));
