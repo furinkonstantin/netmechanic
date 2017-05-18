@@ -1,3 +1,219 @@
+/* Start:/bitrix/templates/KEDAVRA/css/custom-style.css?14909643474368*/
+/*@media (min-width: 1200px) {
+    .header.transparent .container {
+        width: 1170px;
+    }
+}*/
+
+.header.transparent .inner {
+    background-color: #fff;
+}
+
+.header .logo {
+    width: 200px;
+    margin-top: 12px;
+}
+@media only screen and (min-width: 640px){
+    .header .logo {
+        width: 235px;
+    }
+}
+.header .navigation .menu {
+    margin-left: 0;
+}
+.header .navigation{
+    width: 680px;
+}
+/*@media only screen and (min-width: 1200px){
+    .header .navigation{
+        width: 680px;
+    }
+}*/
+@media only screen and (max-width: 1200px){
+    .header .navigation {
+        width: 100%;
+    }
+}
+
+.header .logo__img {
+    position: relative;
+    vertical-align: top;
+    top: 0;
+}
+.menu ul li a,
+.header.transparent .menu li a {
+    font-weight: bold;
+    color: #000;
+    transition: color 0.3s linear;
+}
+
+.header.transparent .menu li a:hover {
+    color: #f05422;
+}
+
+.header.transparent .inner .tools a {
+    background-color: #f05422;
+    color: #fff;
+    transition: color 0.3s linear;
+    opacity: 1 !important;
+}
+
+.menu ul li.active a,
+.menu ul li:hover a,
+.menu ul li:focus a {
+    color: #f05422;
+}
+
+.btn-outlined.btn-primary {
+    background: #f05422;
+    border-color: #f05422 !important;
+    color: #fff !important;
+    border: none;
+    transition: color 0.3s linear;
+}
+
+.btn-outlined.btn-primary:hover {
+    background: #f05422;
+    color: #000 !important;
+}
+
+.header.transparent.opaque .inner .tools .btn-transparent {
+    border: none;
+    color: #fff !important;
+}
+
+.header.transparent.opaque .inner .tools .btn-transparent:hover,
+.header.transparent .inner .tools a:hover {
+    color: #000 !important;
+}
+
+ul.featured-list li:before {
+    color: #f05422;
+}
+
+.sticky-btns span {
+    background-color: #f05422;
+}
+
+.form-control {
+    border-color: #f05422;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px 0px #f05422;
+    border-color: #f05422;
+}
+
+.btn-primary {
+    background: #f05422;
+    transition: color 0.3s linear;
+    opacity: 1 !important;
+}
+
+.btn-primary:hover {
+    background: #f05422;
+    color: #fff;
+}
+
+.footer h3 {
+    color: #f05422;
+}
+
+.footer .footer-subscribe-widget {
+    background-color: #f05422;
+}
+
+.footer .copyright {
+    background-color: #f05422;
+}
+
+.mobile-navi ul li.current a,
+a, a:hover, a:focus {
+    color: #f05422;
+}
+
+.btn-default {
+    background: #f05422;
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+.btn-transparent:hover.btn-primary,
+.btn-default:hover {
+    background: #f05422;
+    color: #000000 !important;
+    transition: color 0.3s linear;
+}
+
+.fp-banner .overlay, .fw-img-banner .overlay,
+.hero-static .overlay {
+    background-color: #330000;
+}
+
+.mobile-navi ul li span:hover {
+    color: #f05422;
+}
+
+#nav-toggle.active:hover span:before, #nav-toggle.active:hover span:after {
+    background: #f05422;
+}
+
+#nav-toggle:hover span, #nav-toggle:hover span:before, #nav-toggle:hover span:after{
+    background: #f05422;
+}
+#nav-toggle.active span {
+    background-color: transparent;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after{
+    background: #f05422;
+}
+
+.transparent #nav-toggle:hover span, .transparent #nav-toggle:hover span:before, .transparent #nav-toggle:hover span:after {
+    background: #f05422;
+}
+
+.transparent #nav-toggle span, .transparent #nav-toggle span:before, .transparent #nav-toggle span:after {
+    background: #f05422;
+}
+
+.transparent #nav-toggle.active span {
+    background-color: transparent;
+}
+
+.pricing-plan.type-1 .price-title, .pricing-plan.type-2 .price-title, .pricing-plan.type-3 .price-title {
+    background-color: #f05422;
+}
+
+.pricing-plan.type-3 {
+    border-color: #f05422;
+}
+
+.pricing-plan.type-2 p.h5,
+.pricing-plan.type-3 p.h5 {
+    color: #f05422;
+}
+
+.mobile-navi ul li ul.submenu li a:hover, .mobile-navi ul li ul.submenu li a:focus{
+    color: #f05422;
+}
+
+.pricing-plan.type-1 h5, .pricing-plan.type-2 .pricing-content li b, .pricing-plan.type-3 h3, .pricing-plan.type-3 .pricing-content li b {
+    color: #f05422;
+}
+
+.progress-bar, .progress.inverted, .counters-v1 .group, .counters-v2 .group{
+    background-color: #f05422;
+}
+
+.footer-logo{
+    width: 235px;
+    height: 55px;
+    margin-bottom: 15px;
+}
+/* End */
+
+
 .hero-static .overlay {
 	background-color: #381c0f;
 }
