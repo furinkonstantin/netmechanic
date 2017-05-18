@@ -25,7 +25,7 @@
                                 <? endforeach;?>
                             </ul>
                         <? endif;?>
-                        <a class="btn btn-md btn-primary btn-center scroll" data-offset-top="90" href="#contact_form">Связаться с нами</a>
+                        <a id="feedback_rate" class="btn btn-md btn-primary btn-center scroll" data-toggle="modal" data-offset-top="90" href="#feedback">Связаться с нами</a>
                     </div>
                 </div>
             </div>
