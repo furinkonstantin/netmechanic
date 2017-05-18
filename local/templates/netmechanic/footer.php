@@ -100,6 +100,7 @@
             $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/jquery.nouislider.min.js");
             $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/card.min.js");
             $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/scripts.js");
+            $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/new.js");
             $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/kinetic.js");
             $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/plugins/jquery.final-countdown.js");
             $APPLICATION->AddHeadScript(MAIN_TEMPLATE_PATH. "js/common.js");
