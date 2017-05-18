@@ -7,7 +7,7 @@
         <? foreach ($arResult["ITEMS"] as $i=>$arItem):?>
             <? if ($i == 0 || $i == $arResult["EQUAL_COLUMNS"]):?>
                 <? 
-                    if ($i == (count($arResult["ITEMS"])/2)) {
+                    if ($i == $arResult["EQUAL_COLUMNS"]) {
                         $class = "col-lg-5 col-sm-6 text-right";
                         $additional = "data-animation=\"fadeInRight\"";
                     } else {
