@@ -83,7 +83,7 @@ $APPLICATION->SetTitle("Цены");
         </div>
         <div class="row">
             <div class="col-md-12">
-                <a class="btn btn-md btn-outlined-invert btn-center scroll" data-offset-top="90" href="#contact_form">Связаться с нами</a>
+                <a id="feedback_modal" data-toggle="modal" data-target="#feedback" data-url="<?=URL_FOR_FEEDBACK?>" class="btn btn-md btn-outlined-invert btn-center scroll" data-offset-top="90" href="#contact_form">Связаться с нами</a>
             </div>
         </div>
     </div>
